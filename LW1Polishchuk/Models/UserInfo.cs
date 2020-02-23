@@ -17,7 +17,7 @@ namespace KMA.ProgrammingInCSharp.LW1Polishchuk.Models
             ZodiacSign = GetZodiacSign(birthDay);
         }
 
-        private static ChineseHoroscopeSign GetChineseSign(DateTime dateTime) => (ChineseHoroscopeSign) ((dateTime.Year - 4) % 12);
+        private static ChineseHoroscopeSign GetChineseSign(DateTime dateTime) => (ChineseHoroscopeSign) (dateTime.Year % 12);
 
         private static ZodiacSign GetZodiacSign(DateTime dateTime)
         {

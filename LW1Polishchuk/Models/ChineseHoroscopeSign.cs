@@ -2,6 +2,10 @@
 {
     public enum ChineseHoroscopeSign
     {
+        Monkey,
+        Rooster,
+        Dog,
+        Pig,
         Rat,
         Ox,
         Tiger,
@@ -9,10 +13,6 @@
         Dragon,
         Snake,
         Horse,
-        Goat,
-        Monkey,
-        Rooster,
-        Dog,
-        Pig
+        Goat
     }
 }
